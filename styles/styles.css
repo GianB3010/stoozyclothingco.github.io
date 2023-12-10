@@ -1,0 +1,398 @@
+body{
+	height: 100%
+	margin: 0;
+    padding: 0;
+    background: var(--background-color);
+	font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 9rem;
+    scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar {
+  width: 12px; 
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: black; 
+  border-radius: 6px; 
+}
+
+body::-webkit-scrollbar-track {
+  background-color: gray; 
+}
+
+section{
+    padding:2rem 7%;
+}
+/* Header Styles */
+body.html header {
+  background-color: white;
+  color: black;
+  padding: 10px;
+}
+
+.logo img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 60px; 
+}
+
+.logo a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 { 
+    text-align: center ;
+}
+
+h2 { 
+ text-color: white;
+}
+   
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right:155px;
+  margin-left:155px;
+}
+
+nav ul li a {
+  text-decoration: underline;
+  text-decoration color: gray;
+  color: black;
+  position: absolute;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+nav a:hover {
+	color: gray;
+}
+
+main {
+  padding: 20px;
+  
+}
+
+.intro {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.7); 
+  padding: 15px;
+  padding-width:5px;
+  color: white; 
+  
+}
+
+h2 {
+	text-color: white;
+}
+
+.home{
+    min-height:80vh;
+    display:flex;
+    align-items:center;
+    background:url(../src/tokyow.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.home .content{
+    max-width: 60rem;
+}
+
+.home .content h3{
+    font-size: 5rem;
+    text-transform: uppercase;
+    color:black;
+}
+
+.home .content p{
+    font-size: 2rem;
+    font-weight:bold;
+    line-height: 2.0;
+    padding:0.5rem 0;
+    color: black;
+	
+}
+
+.btn{
+    margin-top: 1rem;
+    margin-bottom: 0.9rem;
+    display: inline-block;
+    padding: .9rem 3rem;
+    font-size: 1.7rem;
+    color:black;
+    background: var(--main-color);
+    cursor: pointer;
+}
+
+.btn:hover{
+    letter-spacing: 2rem 7%;
+}
+
+.heading{
+    text-align: center;
+    color:#ffffff;
+    text-transform:uppercase;
+    padding-bottom: 3.5rem;
+    font-size: 4rem;
+}
+
+.heading span{
+    color:var(--main-color);
+    text-transform:uppercase;
+}
+
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 20px;
+
+  
+}
+
+.product {
+  width: 200px;
+  padding: 10px;
+  
+}
+
+.testimonials-page {
+  background-color: #f4f4f4;
+  color: gray;
+
+}
+
+.reference .header {
+  background-color: #3498;
+  background:url(../src/tokyow.jpg) no-repeat;
+  text-align: center;
+  padding: 50px;
+}
+
+.testimonial {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin: 10px;
+  width: 50%;
+  margin: auto;
+  margin-bottom: 20px;
+  background-color: #ffffff;
+  background:url(../src/stooz.jpg) no-repeat;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  color: white;
+  font-size: 14px;
+}
+
+.testimonial h1 {
+	text-align:center
+}
+
+.testimonial-content {
+  text-align: center;
+}
+
+.testimonial img {
+  border-radius: 100%;
+  width: 200px;
+  height: 200px;
+  margin-bottom: 20px;
+}
+
+.customer-name {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.reference {
+  padding: 10px;
+  font-size: 20px; 
+  text-align: center;
+  color: black;
+}
+.reference h1{
+	text-align: center;
+	  color: black;
+}
+.checkout {
+  text-align: center;
+  padding: 20px;
+  
+}
+
+.footer{
+    background:black;
+    text-align:center;
+}
+
+.footer .share{
+    padding: 1rem;
+ }
+
+ .footer .share a{
+    height: 2rem;
+    width: 2rem;
+    line-height: 2rem;
+    font-size: 1rem;
+    color:white;
+    border: var(--border);
+    margin: .3rem;
+    border-radius: 30%;
+ }
+
+ .footer .share a:hover{
+    background-color: gray;
+ }
+
+.footer .credit {
+	color: white;
+	font-size: 15px;
+}
+.checkout {
+  text-align: center;
+  padding: 20px;
+  color: white;
+  background-color: #333333;
+  background:url(../src/surf.jpg) no-repeat;
+  height: 100vh;
+  margin: 0;
+}
+
+
+.checkout-form {
+  width: 30%;
+  margin: auto;
+  background-color: black;
+  background:url(../src/stooz.jpg) no-repeat;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  color: white;
+  font-size: 14px;
+  
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 50%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.checkout-button {
+  padding: 10px 20px;
+  background-color: #222222;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.checkout-button:hover {
+  background-color: #333;
+}
+
+#product1 {
+	text-align: center;
+	font-size: 18px;
+  font-weight: bold;
+}
+
+
+#product1 .pro-container{
+	display: flex;
+	justify-content: space-between;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	flex-wrap:wrap;
+	background-color: #FFFFE4;
+}
+
+#product1 .pro {
+	width: 20%;
+	min-width: 220px;
+	padding: 10px 12px;
+	margin-bottom: 20px;
+	border: 1px solid black;
+	border-radius: 20px;
+	cursor: pointer;
+	font-size: 16px;
+    font-weight: bold;
+}
+
+
+#product1 .pro .star i{
+	font-size:16px;
+	color: #F5BB00;
+}
+
+#product1 .pro img{
+	width: 100%;
+	border-radius: 20px;
+}
+
+body .gallery header {
+  background-color: #3498db; 
+  background-color: gray;
+  padding: 20px;
+  text-align: center;
+  background-image: url('..//src/sale.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+body .gallery header h1 {
+  font-size: 130px;
+  font-weight: bold;
+  margin-bottom: 10px; 
+}
+
+body .gallery header p {
+  font-size: 50px;
+  margin-top: 10px;
+}
+
+.sale-banner {
+  background-image: url('..//src/surf.jpg');
+  color: #ffffff; 
+  padding: 15px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.sale-banner h2 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.sale-banner p {
+  font-size: 18px;
+  margin-top: 10px;
+}
